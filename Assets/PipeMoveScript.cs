@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class PipeMoveScript : MonoBehaviour
 {
-	public float moveSpeed = 5;
+	public float moveSpeed;
 
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
 	{
-
+		moveSpeed = 5;
 	}
 
 	// Update is called once per frame
